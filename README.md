@@ -15,6 +15,11 @@ It includes a Docker setup for easy development and deployment.
 or run with docker-compose file: 
 ```docker-compose up -d```
 
+## Code quality
+
+Run `npm run lint` to check the TypeScript code, or `npm run lint:fix` to apply safe fixes.
+Run `npm run format:check` to check formatting, or `npm run format` to format the source, tests, and configuration files.
+
 ## API Endpoints
 
 Below are the available API endpoints with example `curl` commands:
