@@ -10,5 +10,5 @@ app.use(express.json());
 app.use('/users', userController);
 
 app.listen(port, () => {
-    console.log(`API is running at http://localhost:${port}`);
+  console.log(`API is running at http://localhost:${port}`);
 });
